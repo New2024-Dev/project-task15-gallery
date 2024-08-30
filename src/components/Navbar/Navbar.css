@@ -1,0 +1,39 @@
+nav{
+   
+    padding-bottom: 30px;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
+    
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+
+      li a{
+        text-decoration: none;
+      }
+
+      #gall{
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      #start{
+        color: hsl(219, 9%, 45%);
+        letter-spacing: 3px;
+        border: none;
+        background-color: unset;
+
+      }
+      #start:hover{
+        color: black;
+      }

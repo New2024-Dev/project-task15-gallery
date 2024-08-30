@@ -1,0 +1,124 @@
+#detdiv{
+    display: flex;
+    column-gap: 30px;
+    padding-top: 30px;
+    height: 600px;
+    padding-bottom: 30px;
+}
+
+#portrit{
+    height: 500px;
+    width: 390px;
+}
+
+#artistdet{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+#namepic{
+    font-size: 60px;
+    margin: 0;
+    width: 300px;
+}
+
+#artname{
+    color:gray;
+}
+
+#imgart{
+    margin-top: auto;
+    height: 150px;
+    width: 150px;
+    
+}
+
+#discription{
+    max-width: 600px;
+    margin-left: auto;
+   
+}
+
+#year {
+    font-size: 250px;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 95px;
+    right: 50px;
+    z-index: -1;
+    margin: 0; 
+}
+
+#descparg{
+    position: absolute;
+    top: 270px;
+    right: 150px;
+    width: 400px;
+    line-height: 30px;
+    font-size: larger;
+    color: gray;
+}
+
+#source{
+    position: absolute;
+    bottom: 10px;
+    right: 433px;
+    color: gray;
+
+}
+
+@media only screen and (max-width: 600px){
+    #detdiv{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #portrit{
+        height: 300px;
+        width: 390px;
+    }
+    #namepic{
+        font-size: 40px;
+        margin: 0;
+        
+    }
+    
+    #artname{
+        font-size: larger;
+    }
+    
+    #imgart{
+        margin-top: auto;
+        height: 100px;
+        width: 100px;  
+    }
+#discription{
+    
+    margin-right: auto;
+   
+}
+
+    #year {
+        font-size: 130px;
+        position: unset;
+        text-align: center;
+        
+       
+    }
+    
+    #descparg{
+        position: unset;
+        margin: 0;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+    
+    #source{
+        position: unset;
+    
+    }
+}

@@ -1,0 +1,113 @@
+#arraydiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(30, 50px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+#imgdiv{
+    position: relative;
+   
+}
+
+#nameimg{
+    position: absolute;
+    bottom: 90px;
+    color: white;
+    left: 20px;
+    font-size: 30px;
+    width: 250px;
+}
+
+#artist{
+    position: absolute;
+    bottom: 70px;
+    color: white;
+    left: 20px;
+}
+
+.Starry1{
+   grid-row: 1/7; 
+}
+.Girl2{
+    grid-row: 1/10;  
+}
+.Guernica3{
+    grid-row: 1/8;  
+}
+.Penitent4{
+    grid-row: 1/7; 
+}
+
+.Storm5{
+    grid-row: 7/15;
+    
+}
+.Great6{
+    grid-row: 10/16;
+     
+}
+.Van7{
+    grid-row: 8/19;
+}
+.Sleeping8{
+    grid-row: 7/13;
+}
+
+.Lady9{
+    grid-row: 15/24;
+}
+.Night10{
+    grid-row: 16/22;
+}
+.Mona14{
+    grid-row: 19/30;
+}
+.Basket11{
+    grid-row: 13/23;
+}
+
+.Boy12{
+    grid-row: 24/30;
+}
+.Arnolfini13{
+    grid-row: 22/30;
+}
+.Swing15{
+    grid-row: 23/30;
+}
+
+.size12{
+    height: 251px;
+    width: 327px;
+}
+.size13{
+    height: 351px;
+    width: 327px;
+}
+.size14{
+    height: 501px;
+    width: 327px;
+}
+.size15{
+    height: 301px;
+    width: 327px;
+}
+
+@media only screen and (max-width: 600px){
+    #arraydiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    } 
+}
+
+
+
+
+
+
